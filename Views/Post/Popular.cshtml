@@ -1,0 +1,69 @@
+<title>Popular Posts</title>
+<p style ="font-family:comic sans ;font-size:16px;"> This is demo text </p>
+
+<section class="ptb-0">
+		<div class="mb-30 brdr-ash-1 opacty-5"></div>
+		<div class="container">
+			<a class="mt-10" href="index.html"><i class="mr-5 ion-ios-home"></i>Home<i class="mlr-10 ion-chevron-right"></i></a>
+			<a class="mt-10 color-ash" href="archive-page.html">Popular</a>
+		</div><!-- container -->
+	</section>
+	
+	<section>
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-md-12 col-lg-8">
+					
+					<h4 class="p-title"><b>Popular Posts</b></h4>
+					<div class="row">
+					
+					@foreach(PostsModel x in ((IEnumerable<PostsModel>)ViewBag.data2))
+					 {
+<br>
+
+
+						<div class="col-sm-6">
+							<img src="/postimages/@x.Photo" height="200px" width="200px" alt="">
+							<h4 class="pt-20"><a href="#"><b>@x.Title</b></a></h4>
+							<ul class="list-li-mr-20 pt-10 mb-30">
+								<li class="color-lite-black">by <a href="#" class="color-black"><b>@x.Author.Split('@')[0] </b></a>
+								@x.Date.ToString("dddd-mmmm")</li>
+								<li><i class="color-primary mr-5 font-12 ion-ios-bolt"></i> Views : @x.Count</li>
+							
+							</ul>
+						</div><!-- col-sm-6 -->
+						
+					 }
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					</div><!-- row -->
+					
+					<a class="dplay-block btn-brdr-primary mt-20 mb-md-50" href="#"><b>LOAD MORE</b></a>
+				</div><!-- col-md-9 -->
+				
+				<div class="d-none d-md-block d-lg-none col-md-3"></div>
+				<div class="col-md-6 col-lg-4">
+					<div class="pl-20 pl-md-0">
+						<ul class="list-block list-li-ptb-15 list-btm-border-white bg-primary text-center">
+							
+						</ul>
+					
+						
+					<!-- mtb-50 -->
+						
+					</div><!--  pl-20 -->
+				</div><!-- col-md-3 -->
+				
+			</div><!-- row -->
+		</div><!-- container -->
+	</section>
+	
+	

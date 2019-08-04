@@ -1,0 +1,304 @@
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\bin\Debug\netcoreapp2.2\app.db
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.deps.json
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.runtimeconfig.json
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.runtimeconfig.dev.json
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.dll
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.pdb
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.Views.dll
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.Views.pdb
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorAssemblyInfo.cache
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorAssemblyInfo.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.TagHelpers.input.cache
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.TagHelpers.output.cache
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorCoreGenerate.cache
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorTargetAssemblyInfo.cache
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorTargetAssemblyInfo.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.Views.pdb
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.dll
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.pdb
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Index.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netco
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\All.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Edit.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Index.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\New.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\_Layout.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Details.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\_UserPartial.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\View.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Comments.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginLayout.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Popular.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\MyPosts.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Contact\Index.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Contacts.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Contact\ThankYou.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Contact.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\allposts.g.cshtml.cs
+C:\Users\LENOVO\Desktop\New_Projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\become_author.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\bin\Debug\netcoreapp2.2\app.db
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.deps.json
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.runtimeconfig.json
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.runtimeconfig.dev.json
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.dll
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.pdb
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.Views.dll
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.Views.pdb
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.csprojAssemblyReference.cache
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.csproj.CoreCompileInputs.cache
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorAssemblyInfo.cache
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorAssemblyInfo.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.AssemblyInfoInputs.cache
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.AssemblyInfo.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.TagHelpers.input.cache
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.TagHelpers.output.cache
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorCoreGenerate.cache
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\All.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Comments.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Contact.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Contacts.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Edit.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Index.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\MyPosts.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\New.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\View.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\_Layout.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\_UserPartial.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Contact\Index.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Contact\ThankYou.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Allposts.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Become_author.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Details.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Index.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Popular.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginLayout.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorTargetAssemblyInfo.cache
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorTargetAssemblyInfo.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.Views.pdb
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.dll
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.pdb
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.csproj.CopyComplete
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\NewWithQuill.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Category.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\DIPEN\Downloads\Compressed\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contact.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\bin\Debug\netcoreapp2.2\app.db
+E:\dotNet core projects\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.deps.json
+E:\dotNet core projects\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.runtimeconfig.json
+E:\dotNet core projects\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.runtimeconfig.dev.json
+E:\dotNet core projects\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.dll
+E:\dotNet core projects\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.pdb
+E:\dotNet core projects\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.Views.dll
+E:\dotNet core projects\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.Views.pdb
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.csprojAssemblyReference.cache
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.csproj.CoreCompileInputs.cache
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorAssemblyInfo.cache
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorAssemblyInfo.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.AssemblyInfoInputs.cache
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.AssemblyInfo.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.TagHelpers.input.cache
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.TagHelpers.output.cache
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorCoreGenerate.cache
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\All.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Comments.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Contact.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Edit.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Index.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\MyPosts.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\New.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\NewWithQuill.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\View.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\_Layout.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\_UserPartial.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Contact\Index.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Contact\ThankYou.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Allposts.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Become_author.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Category.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Details.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Index.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Popular.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginLayout.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorTargetAssemblyInfo.cache
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorTargetAssemblyInfo.cs
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.Views.pdb
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.dll
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.pdb
+E:\dotNet core projects\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\bin\Debug\netcoreapp2.2\app.db
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.deps.json
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.runtimeconfig.json
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.runtimeconfig.dev.json
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.dll
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.pdb
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.Views.dll
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.Views.pdb
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorAssemblyInfo.cache
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorAssemblyInfo.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.TagHelpers.input.cache
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.TagHelpers.output.cache
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorCoreGenerate.cache
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\All.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Comments.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Contact.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Edit.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Index.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\MyPosts.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\New.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\NewWithQuill.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\View.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\_Layout.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\_UserPartial.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Contact\Index.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Contact\thankyou.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Become_author.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Category.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Details.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Index.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Popular.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginLayout.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorTargetAssemblyInfo.cache
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorTargetAssemblyInfo.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.Views.pdb
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.dll
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.pdb
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\JoinUs.g.cshtml.cs
+C:\Users\Lenovo\Desktop\DotNet\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Search.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\bin\Debug\netcoreapp2.2\app.db
+C:\Users\Lenovo\Desktop\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.deps.json
+C:\Users\Lenovo\Desktop\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.runtimeconfig.json
+C:\Users\Lenovo\Desktop\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.runtimeconfig.dev.json
+C:\Users\Lenovo\Desktop\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.dll
+C:\Users\Lenovo\Desktop\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.pdb
+C:\Users\Lenovo\Desktop\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.Views.dll
+C:\Users\Lenovo\Desktop\PremiumAccount\bin\Debug\netcoreapp2.2\PremiumAccount.Views.pdb
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorAssemblyInfo.cache
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorAssemblyInfo.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.TagHelpers.input.cache
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.TagHelpers.output.cache
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorCoreGenerate.cache
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\All.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Comments.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Contact.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Edit.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Index.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\MyPosts.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\New.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\_Layout.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\_UserPartial.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Contact\Index.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Contact\thankyou.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\JoinUs.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Category.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Index.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Popular.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Search.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginLayout.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorTargetAssemblyInfo.cache
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.RazorTargetAssemblyInfo.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.Views.pdb
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.dll
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.pdb
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\PremiumAccount.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\pagenotfound.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Admin\View.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Post\Details.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\CookiePolicy.g.cshtml.cs
+C:\Users\Lenovo\Desktop\PremiumAccount\obj\Debug\netcoreapp2.2\Razor\Views\Home\Desclaimer.g.cshtml.cs

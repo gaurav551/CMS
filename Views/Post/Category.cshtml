@@ -1,0 +1,179 @@
+@model List<Post>
+	<title> @ViewBag.Ca - BibloBlog </title>
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-8">
+						<div class="row">
+							<!-- post -->
+							@if(ViewBag.one!=null)
+							{
+							<div class="col-md-12">
+								<div class="post post-thumb">
+									<a class="post-img" asp-action="Details" asp-controller="Post" asp-route-title="@ViewBag.one.Title" asp-route-id="@ViewBag.one.Id"><img src="/postimages/@ViewBag.one.PhotoUrl" alt=""></a>
+									<div class="post-body">
+										<div class="post-meta">
+											<a class="post-category cat-2" asp-action="Category" asp-controller="Post" asp-route-category="@ViewBag.one.Category">@ViewBag.one.Category</a>
+											<span class="post-date">@ViewBag.one.CreatedAt</span>
+										</div>
+										<h3 class="post-title"><a asp-action="Details" asp-controller="Post" asp-route-id="@ViewBag.one.Id">@ViewBag.one.Title</a></h3>
+									</div>
+								</div>
+							</div>
+							}
+							else
+							{
+							<h1>No Post </h1>	
+							}<!-- /post -->
+										
+							<!-- post -->
+							@foreach (var item in ViewBag.two)
+							{
+								
+							
+							<div class="col-md-6">
+								<div class="post">
+									<a class="post-img" asp-action="Details" asp-controller="Post" asp-route-title="@item.Title" asp-route-id="@item.Id"><img src="/postimages/@item.PhotoUrl" height="300px" width="300px" alt=""></a>
+									<div class="post-body">
+										<div class="post-meta">
+											<a class="post-category cat-2" asp-action="Category" asp-controller="Post" asp-route-category="@item.Category">@item.Category</a>
+											<span class="post-date">@item.CreatedAt</span>
+										</div>
+										<h3 class="post-title"><a asp-action="Details" asp-controller="Post" asp-route-title="@item.Title" asp-route-id="@item.Id">@item.Title</a></h3>
+									</div>
+								</div>
+							</div>
+							}
+							<!-- /post -->
+
+							<!-- post -->
+							
+							<!-- /post -->
+							
+							<div class="clearfix visible-md visible-lg"></div>
+							
+						
+							
+							<!-- post -->
+							
+							<!-- /post -->
+							
+							<!-- post -->
+							
+							<!-- /post -->
+
+							<!-- post -->
+							
+							<!-- /post -->
+							
+							<!-- post -->
+							@foreach (var item in ViewBag.three)
+							{
+								
+							
+							<div class="col-md-12">
+								<div class="post post-row">
+									<a class="post-img" asp-action="Details" asp-controller="Post" asp-route-title="@item.Title" asp-route-id="@item.Id"><img src="/postimages/@item.PhotoUrl" alt="" height="200px" widget="120px"></a>
+									<div class="post-body">
+										<div class="post-meta">
+											<a class="post-category cat-2" asp-action="Category" asp-controller="Post" asp-route-category="@item.Category">@item.Category</a>
+											<span class="post-date">@item.CreatedAt</span>
+										</div>
+										<h3 class="post-title"><a asp-action="Details" asp-controller="Post" asp-route-title="@item.Title" asp-route-id="@item.Id">@item.Title</a></h3>
+										<p> @Html.Raw(item.Description.Length>151? item.Description.Substring(0,150)+"..." :item.Description)  </p>
+                                      
+									</div>
+								</div>
+							</div>
+							}
+							<!-- /post -->
+							
+							<div class="col-md-12">
+								<div class="section-row">
+									<button class="primary-button center-block">Load More</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						
+						
+						<!-- post widget -->
+						<div class="aside-widget">
+							<div class="section-title">
+								<h2>Most Read </h2>
+							</div>
+                               @foreach (var item in ViewBag.four)
+							   {
+							<div class="post post-widget">
+								<a class="post-img" asp-action="Details" asp-controller="Post" asp-route-title="@item.Title" asp-route-id="@item.Id"><img src="/postimages/@item.PhotoUrl" alt=""></a>
+								<div class="post-body">
+									<h3 class="post-title"><a asp-action="Details" asp-controller="Post" asp-route-title="@item.Title" asp-route-id="@item.Id">@item.Title</a></h3>
+								</div>
+							</div>
+							   }
+
+						
+
+							
+
+							
+						</div>
+						<!-- /post widget -->
+						
+						<!-- catagories -->
+						<div class="aside-widget">
+							<div class="section-title">
+								<h2>Catagories</h2>
+							</div>
+							<div class="category-widget">
+								<ul>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Technology" class="cat-1">Technology<span>12</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Mobile" class="cat-2">Mobile<span>74</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Laptop" class="cat-4">Laptop<span>41</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Os" class="cat-3">Os<span>35</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Reviews" class="cat-1">Reviews<span>35</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Hacking" class="cat-2">Hacking<span>35</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Apps" class="cat-3">Apps<span>35</span></a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- /catagories -->
+						
+						<!-- tags -->
+						<div class="aside-widget">
+							<div class="tags-widget">
+								<ul>
+										<li><a href="#">Technology</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Posts</a></li>
+									<li><a href="#">News</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- /tags -->
+						
+						<!-- archive -->
+						<div class="aside-widget">
+							<div class="section-title">
+								<h2>Archive</h2>
+							</div>
+							<div class="archive-widget">
+								<ul>
+									<li><a href="#">Jan 2018</a></li>
+									<li><a href="#">Feb 2018</a></li>
+									<li><a href="#">Mar 2018</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- /archive -->
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /section -->

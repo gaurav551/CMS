@@ -1,0 +1,315 @@
+@model List<Post>
+<!-- section -->
+@{
+	ViewData["description"] = "Biblo Blog is a source of latest technology news, reviews, tips & ideas covering various topics";
+}
+<title> Bibloblog </title>
+
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+			
+				<!-- row -->
+				<div class="row">	
+					 
+					@foreach (var x in ViewBag.post)
+					{
+						
+					
+					<div class="col-md-6">
+						<div class="post post-thumb">
+							<a class="post-img" asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id" ><img src="/postimages/@x.PhotoUrl" width="650px" height="330px" alt=""></a>
+							<div class="post-body">
+								<div class="post-meta">
+									<a class="post-category cat-2" asp-action="Category" asp-controller="Post" asp-route-category="@x.Category">@x.Category</a>
+									<span class="post-date">@x.CreatedAt.ToString("MMMM dd, yyyy")</span>
+								</div>
+								<h3 class="post-title"><a asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id">@x.Title</a></h3>
+							</div>
+						</div>
+					</div>
+					}
+					<!-- /post -->
+
+					<!-- post -->
+					
+					<!-- /post -->
+				</div>
+				<!-- /row -->
+
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title">
+							<h2>Recent Posts</h2>
+						</div>
+					</div>
+
+					<!-- post -->
+					
+					<!-- /post -->
+
+					<!-- post -->
+					
+					<!-- /post -->
+
+					<!-- post -->
+					@foreach(var x in ViewBag.post2)
+					{
+					<div class="col-md-4">
+						<div class="post">
+							<a class="post-img" asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id"><img src="/postimages/@x.PhotoUrl" alt="" height="280px" widget="140px"></a>
+							<div class="post-body">
+								<div class="post-meta">
+									<a class="post-category cat-3" asp-action="Category" asp-controller="Post" asp-route-category="@x.Category">@x.Category</a>
+									<span class="post-date">@x.CreatedAt.ToString("MMMM dd, yyyy")</span>
+								</div>
+								<h3 class="post-title"><a asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id">@x.Title</a></h3>
+							</div>
+						</div>
+					
+					</div>
+					}
+					<!-- /post -->
+
+					<div class="clearfix visible-md visible-lg"></div>
+
+					
+				</div>
+				
+				<div class="row">
+					<div class="col-md-8">
+						<div class="row">
+							<!-- post -->
+							@if(ViewBag.post3!=null){
+							<div class="col-md-12">
+								<div class="post post-thumb">
+									<a class="post-img" asp-action="Details" asp-controller="Post" asp-route-title="@ViewBag.post3.Title" asp-route-id="@ViewBag.post3.Id"><img src="~/postimages/@ViewBag.post3.PhotoUrl" alt=""></a>
+									<div class="post-body">
+										<div class="post-meta">
+											<a class="post-category cat-3" asp-action="Category" asp-controller="Post" asp-route-category="@ViewBag.post3.Category">@ViewBag.post3.Category</a>
+											<span class="post-date">@ViewBag.post3.CreatedAt.ToString("MMMM dd, yyyy")</span>
+										</div>
+										<h3 class="post-title"><a asp-action="Details" asp-controller="Post" asp-route-title="@ViewBag.post3.Title" asp-route-id= "@ViewBag.post3.Id">@ViewBag.post3.Title</a></h3>
+									</div>
+								</div>
+							</div>
+							}else{
+								<p>No post</p>
+							}
+							<!-- /post -->
+
+							<!-- post -->
+							@foreach (var x in ViewBag.post4)
+							{
+							<div class="col-md-6">
+								<div class="post">
+									<a class="post-img" asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id"><img src="/postimages/@x.PhotoUrl" height="280px" width="140px" alt=""></a>
+									<div class="post-body">
+										<div class="post-meta">
+											<a class="post-category cat-4" asp-action="Category" asp-controller="Post" asp-route-category="@x.Category">@x.Category</a>
+											<span class="post-date">@x.CreatedAt.ToString("MMMM dd, yyyy")</span>
+										</div>
+										<h3 class="post-title"><a asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id">@x.Title</a></h3>
+									</div>
+								</div>
+							</div>
+							}
+							
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<!-- post widget -->
+						<div class="aside-widget">
+							<div class="section-title">
+								<h2>Most Read</h2>
+							</div>
+                              @foreach (var x in ViewBag.post5)
+							  {
+							<div class="post post-widget">
+								<a class="post-img" asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id"><img src="/postimages/@x.PhotoUrl" alt=""></a>
+								<div class="post-body">
+									<h3 class="post-title"><a asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id">@x.Title</a></h3>
+								</div>
+							</div>
+							  }
+
+							
+
+							
+
+						
+						</div>
+						<!-- /post widget -->
+
+						<!-- post widget -->
+						<div class="aside-widget">
+							<div class="section-title">
+								<h2>Featured Posts</h2>
+							</div>
+							@foreach (var x in ViewBag.post6)
+							{
+							<div class="post post-thumb">
+								<a class="post-img" asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id"><img src="/postimages/@x.PhotoUrl" alt="" height="300px"></a>
+								<div class="post-body">
+									<div class="post-meta">
+										<a class="post-category cat-3" asp-action="Category" asp-controller="Post" asp-route-category="@x.Category">@x.Category</a>
+										<span class="post-date">@x.CreatedAt.ToString("MMMM dd, yyyy")</span>
+									</div>
+									<h3 class="post-title"><a asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id">@x.Title</a></h3>
+								</div>
+							</div>
+							}
+
+							
+						</div>
+						<!-- /post widget -->
+						
+						<!-- ad -->
+						<div class="aside-widget text-center">
+							<a href="#" style="display: inline-block;margin: auto;">
+								<img class="img-responsive" src="~/webmag/img/ad-1.jpg" alt="">
+							</a>
+						</div>
+						<!-- /ad -->
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /section -->
+		
+		<!-- section -->
+		<div class="section section-grey">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title text-center">
+							<h2>Trending Posts</h2>
+						</div>
+					</div>
+
+					<!-- post -->
+					@foreach (var x in ViewBag.post7)
+					{
+					<div class="col-md-4">
+						<div class="post">
+							<a class="post-img" asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id"><img src="/postimages/@x.PhotoUrl" alt=""  height="200px" widget="140px"></a>
+							<div class="post-body">
+								<div class="post-meta">
+									<a class="post-category cat-2" asp-action="Category" asp-controller="Post" asp-route-category="@x.Category">@x.Category</a>
+									<span class="post-date">@x.CreatedAt.ToString("MMMM dd, yyyy")</span>
+								</div>
+								<h3 class="post-title"><a asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id">@x.Title</a></h3>
+							</div>
+						</div>
+					</div>
+					}
+					<!-- /post -->
+
+					<!-- post -->
+					
+					<!-- /post -->
+
+					<!-- post -->
+					
+					<!-- /post -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /section -->
+
+		<!-- section -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-8">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="section-title">
+									<h2>We're Reading </h2>
+								</div>
+							</div>
+							<!-- post -->
+							@foreach (var x in ViewBag.post8)
+							{
+							<div class="col-md-12">
+								<div class="post post-row">
+									<a class="post-img" asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id"><img src="/postimages/@x.PhotoUrl" alt=""  height="200px" widget="120px"></a>
+									<div class="post-body">
+										<div class="post-meta">
+											<a class="post-category cat-2" asp-action="Category" asp-controller="Post" asp-route-category="@x.Category">@x.Category</a>
+											<span class="post-date">@x.CreatedAt.ToString("MMMM dd, yyyy")</span>
+										</div>
+										<h3 class="post-title"><a asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id">@x.Title</a></h3>
+										<p> @Html.Raw(x.Description.Length>151? x.Description.Substring(0,150)+"..." :x.Description)  </p>
+									</div>
+								</div>
+							</div>
+							}
+						
+							
+							<div class="col-md-12">
+								<div class="section-row">
+									<button class="primary-button center-block">Load More</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<!-- ad -->
+						<div class="aside-widget text-center">
+							<a href="#" style="display: inline-block;margin: auto;">
+								<img class="img-responsive" src="~/webmag/img/author.jpg" alt="">
+							</a>
+						</div>
+						<!-- /ad -->
+						
+						<!-- catagories -->
+						<div class="aside-widget">
+							<div class="section-title">
+								<h2>Catagories</h2>
+							</div>
+							<div class="category-widget">
+								<ul>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Technology" class="cat-1">Technology<span>@ViewBag.count</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Mobile" class="cat-2">Mobile<span>74</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Laptop" class="cat-4">Laptop<span>41</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Os" class="cat-3">Os<span>35</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Reviews" class="cat-1">Reviews<span>35</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Hacking" class="cat-2">Hacking<span>35</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Apps" class="cat-3">Apps<span>35</span></a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- /catagories -->
+						
+						<!-- tags -->
+						<div class="aside-widget">
+							<div class="tags-widget">
+								<ul>
+									<li><a href="#">Technology</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Posts</a></li>
+									<li><a href="#">News</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- /tags -->
+					</div>
+				</div>
+				
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /section -->

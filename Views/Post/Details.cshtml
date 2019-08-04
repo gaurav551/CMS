@@ -1,0 +1,278 @@
+@{
+	ViewData["meta"]="detail page";
+}
+
+<head>
+
+	 <link type="text/css" rel="stylesheet" href="~/callie/css/style.css" />
+
+
+	
+
+
+
+</head>
+
+<body>
+	<!-- HEADER -->
+	
+		<div id="post-header" class="page-header">
+				<div class="background-img" style="background-image: url('/postimages/@Model.PhotoUrl');"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10">
+							<div class="post-meta">
+								<a class="post-category cat-2" asp-action="Category" asp-controller="Post" asp-route-category="@Model.Category">@Model.Category</a>
+								<span class="post-date">@Model.CreatedAt.ToString("dd MMMM, yyyy")</span>
+							</div>
+							<h1>@Model.Title</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- /PAGE HEADER -->
+	</header>
+	<!-- /HEADER -->
+
+	<!-- section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<div class="col-md-8">
+					<!-- post share -->
+					<div class="section-row">
+						<div class="post-share">
+							<a href="#" class="social-facebook"><i class="fa fa-facebook"></i><span>Share</span></a>
+							<a href="#" class="social-twitter"><i class="fa fa-twitter"></i><span>Tweet</span></a>
+							<a href="#" class="social-pinterest"><i class="fa fa-pinterest"></i><span>Pin</span></a>
+							<a href="#" ><i class="fa fa-envelope"></i><span>Email</span></a>
+						</div>
+					</div>
+					<!-- /post share -->
+
+					<!-- post content -->
+					
+					<div class="section-row" >
+					
+						
+						@Html.Raw(Model.Description) 
+						
+					
+					</div>
+					
+					<!-- /post content -->
+
+					<!-- post tags -->
+					<div class="section-row">
+						<div class="tags-widget">
+								<ul>
+									<li><a href="#">Technology</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Posts</a></li>
+									<li><a href="#">News</a></li>
+								
+								</ul>
+							</div>
+					</div>
+					<!-- /post tags -->
+
+				
+
+					<!-- post author -->
+					
+					<!-- /post author -->
+
+					<!-- /related post -->
+					<div>
+						<div class="section-title">
+							<h3 class="title">Related Posts</h3>
+						</div>
+						<div class="row">
+							<!-- post -->
+							@foreach (var x in ViewBag.related)
+							{
+								
+							
+							<div class="col-md-4">
+								<div class="post post-sm">
+									<a class="post-img" asp-action="Check" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id"><img src="/postimages/@x.PhotoUrl" height="150px" alt=""></a>
+									<div class="post-body">
+										<div class="post-category">
+											<a asp-action="Category" asp-controller="Post" asp-route-category="@x.Category">@x.Category</a>
+										</div>
+										<h3 class="post-title title-sm"><a asp-action="Check" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id">@x.Title</a></h3>
+										<ul class="post-meta">
+											
+											<li>@x.CreatedAt.ToString("dd MMMM, yyyy")</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							}
+							
+						</div>
+					</div>
+					<!-- /related post -->
+
+					<!-- post comments -->
+					<div class="section-row">
+						<div class="section-title">
+							<h3 class="title">@ViewBag.Count COMMENTS</h3>
+						</div>
+						<div class="post-comments">
+							<!-- comment -->
+							
+								
+									<!-- /comment -->
+								
+							
+							<!-- /comment -->
+
+							<!-- comment -->
+							<div class="media">
+								<div class="media-left">
+									<img class="media-object" src="./img/avatar-3.jpg" alt="">
+								</div>
+
+								<div class="media-body">
+									@foreach (var x in ViewBag.Comments)
+					{
+									<div class="media-heading">
+										<h4> @x.Name </h4>
+										<span class="time">@x.PostedAt</span>
+									</div>
+									<p>@x.Text</p>
+									<a href="#" class="reply">Reply</a>
+					}
+								</div>
+							</div>
+							<!-- /comment -->
+						</div>
+					</div>
+					<!-- /post comments -->
+
+					<!-- post reply -->
+					<div class="section-row">
+						<div class="section-title">
+							<h3 class="title">Leave a reply</h3>
+						</div>
+						<form class="post-reply" asp-action="CommentAdd" asp-controller="Post">
+							<div class="row">
+									<div class="col-md-4">
+										<div class="form-group">
+											<span>Name *</span>
+											<input class="input" type="text" name="name" id="name">
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<span>Email *</span>
+											<input class="input" type="email" name="email" id="email">
+											<input  type="hidden" id="commentCreatedAt" name="commentCreatedAt"> 
+                                            <input type="hidden" name="postId" id="postId" value="@Model.Id"/>
+											 <input type="hidden" name="postTitle" id="postTitle" value="@Model.Title"/>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<span>Website</span>
+											<input class="input"  type="text" name="website" id="website">
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<textarea class="input" name="commentTxt" id="commentTxt"placeholder="Message"></textarea>
+										</div>
+										<button class="primary-button">Submit</button>
+									</div>
+								</div>
+						</form>
+					</div>
+					<!-- /post reply -->
+				</div>
+				<div class="col-md-4">
+					<!-- ad widget -->
+					<div class="aside-widget text-center">
+						<a href="#" style="display: inline-block;margin: auto;">
+							<img class="img-responsive" src="./img/ad-3.jpg" alt="">
+						</a>
+					</div>
+					<!-- /ad widget -->
+
+					
+
+					<!-- category widget -->
+						
+							<div class="aside-widget">
+							<div class="section-title">
+								<h2>Categories</h2>
+							</div>
+							<div class="category-widget">
+								<ul>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Technology" class="cat-1">Technology<span>12</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Mobile" class="cat-2">Mobile<span>74</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Laptop" class="cat-4">Laptop<span>41</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Os" class="cat-3">Os<span>35</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Reviews" class="cat-1">Reviews<span>35</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Hacking" class="cat-2">Hacking<span>35</span></a></li>
+									<li><a asp-action="Category" asp-controller="Post" asp-route-category="Apps" class="cat-3">Apps<span>35</span></a></li>
+								</ul>
+							</div>
+						</div>
+					<br>
+					<br>
+					<div class="aside-widget">
+						<div class="section-title">
+							<h2 class="title">Popular Posts</h2>
+						</div>
+						
+
+						
+
+						<!-- post -->
+						@foreach (var x in ViewBag.popular)
+						{
+							
+						
+						<div class="post post-widget">
+							<a class="post-img" asp-action="Check" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id"><img src="/postimages/@x.PhotoUrl" alt="" height="100px"></a>
+							<div class="post-body">
+								<div class="post-category">
+									<a asp-action="Category" asp-controller="Post" asp-route-category="@x.Category">@x.Category</a>
+									
+								</div>
+								<h3 class="post-title"><a  asp-action="Check" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id">@x.Title</a></h3>
+							</div>
+						</div>
+						}
+						<!-- /post -->
+					</div>
+					
+
+					<!-- Ad widget -->
+					<div class="aside-widget text-center">
+						<a href="#" style="display: inline-block;margin: auto;">
+							<img class="img-responsive" src="./img/ad-1.jpg" alt="">
+						</a>
+					</div>
+					<!-- /Ad widget -->
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /SECTION -->
+
+	<!-- FOOTER -->
+	
+	<!-- /FOOTER -->
+
+	<!-- jQuery Plugins -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <a class="js-acc-btn" href="#">@User.Identity.Name.Split('@')[0]</a>
+}
+else
+{
+   
+}
+</ul>

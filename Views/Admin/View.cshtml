@@ -1,0 +1,59 @@
+
+@model Post
+
+
+
+
+					<img src="/postimages/@Model.PhotoUrl" alt="">
+					<h3 ><b> @Model.Title</b></h3>
+					
+						by <a href="#"><b>@Model.Author </b></a> @Model.CreatedAt
+						@Model.CreatedAt
+						
+					
+					
+					
+					<p > @Html.Raw(Model.Description)</p>
+						
+				
+					
+					
+					
+					
+					
+					<h4 ><b> COMMENTS</b></h4>
+					
+					<div>
+					
+						<!-- s-left -->
+						
+					</div>
+						
+					<!-- sided-70 -->
+					@foreach (var x in ViewBag.Comments)
+					{
+						
+				<div >
+					
+						<div>
+							<img src="images/profile-2-120x120.jpg" alt="">
+						</div><!-- s-left -->
+						
+						<div>
+							<h5><b>@x.Name </b> <span class="font-8 color-ash">@x.PostedAt</span></h5>
+							<p >@x.Text</p>
+							<a ><b>LIKE</b></a>
+							<a><b>REPLY</b></a>
+						</div><!-- s-right -->
+						
+					</div><!-- sided-70 -->
+					}
+					
+					
+					
+					
+				
+				
+						
+					
+

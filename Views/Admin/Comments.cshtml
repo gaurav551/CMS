@@ -1,0 +1,40 @@
+@model List<Comment>
+
+<h3>@Model.Count Comments </h3>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">CommentBY</th>
+      <th scope="col">Comment</th>
+      <th scope="col">Status</th>
+      <th scope="col">Post</th>
+      <th colspan="4">Action</th>
+    </tr> 
+  </thead>
+  <tbody>
+      @foreach (var item in Model)
+      {
+          
+      
+    <tr>
+      <th scope="row">@(item.Name.Length>25? item.Name.Substring(0,24)+"....":item.Name)</th>
+      <td>@(item.Text.Length>25? item.Text.Substring(0,24)+"....":item.Text)</td>
+      <td>@(item.IsApproved? "Approved" : "Rejected")</td>
+      <td>@item.PostId</td>
+      
+       <td><a asp-action="View" asp-controller="Admin" asp-route-id="@item.PostId">View</a></td>
+       <td><a asp-action="DeleteComment" asp-controller="Admin" asp-route-id="@item.Id">Delete</a></td>
+       <td><a asp-action="ApproveComment" asp-controller="Admin" asp-route-id="@item.Id">Approve</a></td>
+
+       <td><a asp-action="RejectComment" asp-controller="Admin" asp-route-id="@item.Id">Reject</a></td>
+
+
+    </tr>
+      }
+    </tbody>
+</table>
+
+
+
+ 

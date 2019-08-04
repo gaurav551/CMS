@@ -1,0 +1,46 @@
+@model List<Post>
+     <title> @TempData["search"] </title>
+
+
+    <div class="section">
+			<!-- container -->
+			<div class="container">
+			
+				<!-- row -->
+				<div class="row">	
+                   @if (Model.Count<=0)
+                   {<div class="col-md-12">
+						<div class="section-title">
+							<h2> No Result for "@TempData["search"]" </h2>
+						</div>
+					</div>
+                   }
+                   else
+                   {
+	               <div class="col-md-12">
+						<div class="section-title">
+							<h2> Showing Results For "@TempData["search"]"</h2>
+						</div>
+					</div>
+          
+                  @foreach(var x in Model)
+                  {
+					<div class="col-md-4">
+						<div class="post">
+							<a class="post-img" asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id"><img src="/postimages/@x.PhotoUrl" alt="" height="280px" widget="140px"></a>
+							<div class="post-body">
+								<div class="post-meta">
+									<a class="post-category cat-3" asp-action="Category" asp-controller="Post" asp-route-category="@x.Category">@x.Category</a>
+									<span class="post-date">@x.CreatedAt.ToString("MMMM dd, yyyy")</span>
+								</div>
+								<h3 class="post-title"><a asp-action="Details" asp-controller="Post" asp-route-title="@x.Title" asp-route-id="@x.Id">@x.Title</a></h3>
+							</div>
+						</div>
+					
+					</div>
+                  }
+                   }
+					
+                    </div>
+                    </div>
+                    </div>
